@@ -93,7 +93,7 @@ enum LoginResult {
 /// 负责：账密登录、Cookie 持久化、登录状态检测、VIP 状态验证、自动重登
 class BiliAuth {
   /// 内置手机号
-  static const String phone = '13468676878';
+  static const String phone = 'xxxxx';
 
   /// Bilibili 登录接口
   static const String _loginUrl =
