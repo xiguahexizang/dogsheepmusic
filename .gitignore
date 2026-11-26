@@ -69,4 +69,4 @@ tool/_*.txt
 # 本地运行期数据（Hive 加密箱 / Cookie 快照）
 *.hive
 *.hivex
-secure_box*
+/secure_box*
