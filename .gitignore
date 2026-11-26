@@ -1,0 +1,72 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication
+app.*.symbols
+
+# Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# Android Studio
+android/captures/
+
+# macOS
+**/ios/Flutter/ephemeral
+
+# Windows
+**/windows/flutter/ephemeral
+
+# Coverage
+coverage/
+
+# Temporary
+analyze_tmp.txt
+build_log*.txt
+/6000
+test/e2e_*.dart
+tool/*_probe.*
+tool/*_dump.*
+tool/_*.ps1
+tool/_*.js
+tool/_*.txt
+
+# 本地运行期数据（Hive 加密箱 / Cookie 快照）
+*.hive
+*.hivex
+secure_box*
