@@ -16,6 +16,7 @@
 3. 生成图标：`dart run flutter_launcher_icons`（详见 `android/ICON_SETUP.md`）
 4. 构建：`flutter build apk --release --target-platform android-arm64`
    或运行：`.\build_apk.ps1`（自动检查环境、生成测试 keystore、生成图标并构建）
+5.auth.dart改内置手机号 目前xxxxx
 
 ## 首次使用
 安装 APK 后首次启动需要输入 Bilibili 账号密码（手机号已内置）。
